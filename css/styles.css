@@ -1,0 +1,160 @@
+#title{
+    background-color: #FF4C68;
+}
+
+#features{
+    padding: 6% 15%;
+    text-align: center;
+    background-color: #ffffff;
+    position: relative;
+}
+
+
+.-img{
+    transform: rotate(25deg);
+    max-width: 60%;
+    position: absolute;
+    right: 30%;   
+}
+
+@media (max-width:991px){
+    .-img{
+        position: static;
+        transform: rotate(0);
+    }
+    .title-content{
+        text-align: center;
+    }
+}
+
+.p-color, .pricing-p, .footer-p{
+    color: #8f8f8f;
+}
+
+body{
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 3.5rem;
+}
+
+h3{
+    font-weight: 900;
+}
+
+.container-fluid{
+    padding: 3% 15% 14%;
+}
+
+.navbar-brand{
+   font-size: 2rem;
+   font-weight: bold;
+   font-family: "Ubuntu";
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-left: 18px;
+}
+
+.btn{
+    margin: 0px 20px 20px 0;
+}
+
+.fas-color{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.col-space{
+    padding: 0 5%;
+}
+
+.fas-color:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonials-h2, .pricing-h2{
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+.-pricing{
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.card{
+    margin: 0px 0px 21px;
+}
+
+.pricing-col{
+    padding: 2%;
+}
+
+/* Call to action */
+
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#cta>h3{
+    margin-bottom: 3rem;
+}
+
+/* Footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.fa-footer{
+   padding: 0 12px 25px;
+}
+
+.social-media-btn{
+
+}
+
